@@ -1,0 +1,18 @@
+{
+  "libs": [
+    "browser",
+    "ecma5",
+    "ecma6"
+  ],
+  "loadEagerly": [
+    "/src/js/*.js",
+    "/src/js/**/*.js",
+    "src/bower_components/phaser-official/build/phaser.min.js"
+  ],
+  "plugins": {
+    "complete_strings": {},
+    "doc_comment": {
+     "fullDocs": true
+    }
+  }
+}
